@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content:center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: black;
+}
+.banner {
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+.navbar{
+    width: 100%;
+    padding: 13 0;
+    display:flex;
+    background-color: #1d1d1f;
+}
+.logo{
+    width: 70px;
+    padding-right: 60vh;
+}
+.navbar ul li{
+list-style: none;
+display: inline-flex;
+margin: 0 20px;
+position: relative;
+}
+.navbar ul li a{
+    text-decoration-line: none;
+    color: #9d9d9e;
+    text-transform:none;
+}
+.navbar ul li :hover{
+    color: rgb(255, 255, 255);
+}
+hr {
+    border: none;
+    border-top: 1px solid #9d9d9e;
+  }
+.cont{
+    width: 100%;
+   margin-top: 10vh;
+    align-items: center;
+    display:flex;
+   
+}
+.left{
+    .photo  {
+        width: 8cm;
+        margin-right: 20vh;
+        margin-left: 8vh;
+        border-radius: 20px 20px 20px 20px;
+        border: 0px solid ;
+        animation: photo 1.5s ease-in-out;
+    }
+}
+    @keyframes photo{
+        from {
+            opacity: 0;
+            transform: translateX(-55vh);
+        }
+        to {
+            opacity: 100;
+            transform: translateX(0);
+        }
+    }
+.right{
+    margin-right: 8vh;
+    margin-left: 30vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #9d9d9e;
+    font-size: 20px;
+}
+.para{
+    text-align: justify;
+    animation: para 1.5s ease-in-out;
+}
+@keyframes para{
+    from {
+        opacity: 0;
+        transform: translateX(20vh);
+    }
+    to {
+        opacity: 100;
+        transform: translateX(0);
+}
+}
+.name{
+    font-size: 64px;
+   font-weight:220;
+    animation: name 2s ;
+}
+@keyframes name{
+    from {
+        opacity: 0;
+        transform: translateY(-20vh);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0);
+}
+}
